@@ -5,6 +5,14 @@
 body{
     
 }
+/*Extra CSS*/
+a:hover{
+    color: brown;
+    background-color: chartreuse;
+}
+a:visited{
+   
+}
 /*  start Row One*/
 .tamplate{
     width: 100%;
@@ -224,22 +232,242 @@ cart & signup section
     
     
 }
+.book:hover{
+    height: 250px;
+    width: 130px;
+    background-color: #6610f2;
+}
 .book img{
     width: 120px;
     height: 180px;
     
 }
+.book img:hover{
+    width: 125px;
+    height: 200px;
+    background-color: #6610f2;
+}
+
 .book p{}
 .book span{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+/*start Row Six*/
+.row6{
+    width: 100%;
+    height: 200px;
+}
+.mid_img{
+    width: 100%;
+    height: 200px;
+    background-color: #6c757d;
 
+
+   
+}
+.mid_img:hover{
+     width: 100%;
+    height: 200px;
+    background-color: #6610f2;
+}
+
+.mid_img img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+<!--  Start Row Seven-->
+
+.row7{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    
+}
+.cardsp{
+    width: 100%;
+    height: 500px;
+    display: flex;
+     overflow: scroll;
+    display: flex;
+    
+    
+}
+.card_con{
+    width: 320px;
+    height: 480px;
+    background-color: crimson;
+    border: 2px solid black;
+ 
+   
+}
+.card_con h1{}
+.card_bg{
+    width: 300px;
+   
+    background-color: whitesmoke;
+    
+    margin: 0 auto;
+    
+}
+.button {
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+.button button{}
+.card_art{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+   
+}
+.num{
+    padding-right: 5px;
+}
+.num h1{}
+.img{
+    padding-right: 5px;
+}
+.img img{
+    width: 70px;
+    height: 100px;
+}
+.nam h3{}
+/*Start Row 8*/
+.row8{
+    height: 250px;
+    width: 100%;
+    
+    
+}
+.cetagory{
+    
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+   
+    
+}
+.card_gory{
+    
+    margin-top: 40px;
+    margin-left: 10px;    
+    height: 130px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.card_gory h1{
+   
+}
+<!-- Start Row 9-->
+.row9{
+    width: 100%;
+    height: 250px;
+    
+}
+.catagory{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 250px;
+    background-color: azure;
+   
+    display: inline-block;
+    
+    
+}
+.cardm{
+    float: left;
+    width: 230px;
+    height: 50px;
+    background-color: darkgreen;
+    padding: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.cardm h1{
+    text-align: center;
+}
+
+.cardm:hover{
+    background-color: beige;
+    width: 230px;
+    width: 230px;
+    height: 50px;
+    box-shadow: 2px 2px 2px 2px pink;
+}
+.cardm h1:hover{
+    color: red;
+    background-color: black;
+    font-size: 40px;
+    box-shadow: 2px 2px 2px 2px red;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+/*
+color code
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+*/
 
 
 
