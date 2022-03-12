@@ -150,28 +150,90 @@ cart & signup section
 
 }
 .slider{
-    
+    background: url("Images/silder.png");
+    height: 200px;
     width: 100%;
-    height: auto;
     background-size: cover;
-    background-position: center;
-    animation: slider 9s infine linear;
-}
-.slider img{
-    width: 960px;
+    background-position: center center;
+    animation: slider 10s infinite linear; 
     
+    
+   
 }
 @keyframes slider{
     0%{
-        background-image: url(Images/silder.png)
+    background: url("Images/silder.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+        
     }
-    30%{
-        background-image: url(Images/silder1.png)
+    25%{
+        background: url("Images/silder1.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+        
     }
-    90%{
-        background-image: url(Images/silder3.png)
+    50%{
+        background: url("Images/silder2.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+        
+    }
+    75%{
+        background: url("Images/silder3.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+        
     }
 }
+/* Start Row Five*/
+.row5{
+    height: 350px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    
+    
+}
+.card{
+   box-shadow: 2px 3px 10px 5px black; 
+}
+.book_gallary{
+    
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    
+    
+}
+.book{
+    height: 250px;
+    width: 130px;
+    padding-left: 10px;
+   
+    
+    
+}
+.book img{
+    width: 120px;
+    height: 180px;
+    
+}
+.book p{}
+.book span{}
+.{}
+.{}
+.{}
 .{}
 .{}
 .{}
